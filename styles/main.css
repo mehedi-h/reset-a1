@@ -1,0 +1,28 @@
+
+
+.raleway {
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+}
+
+body {
+    max-width: 1140px auto;
+    margin: 15px 180px;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo {
+    font-size: 36px;
+    font-weight: 900;
+}
+.resume {
+    border: 1.5px solid #0D1321;
+    border-radius:7px;
+    padding: 6px 12px;
+    font-size: 14px;
+    font-weight: 500;
+}
