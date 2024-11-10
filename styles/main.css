@@ -5,15 +5,12 @@
   font-optical-sizing: auto;
 }
 
-body {
-    max-width: 1140px auto;
-    margin: 15px 180px;
-}
-
 nav{
     display: flex;
     align-items: center;
     justify-content: space-between;
+    max-width: 1440px auto;
+    margin: 0px 180px;
 }
 .logo {
     font-size: 36px;
@@ -22,7 +19,28 @@ nav{
 .resume {
     border: 1.5px solid #0D1321;
     border-radius:7px;
-    padding: 6px 12px;
-    font-size: 14px;
+    padding: 7px 15px;
+    font-size: 15px;
+    font-weight: 500;  
+}
+
+/*----------- Banner Design ------------*/
+.banner-content {
+    max-width: 1440px auto;
+    height: 560px;
+    background-image: url(/images/banner-bg.jpg);
+    align-content: center;
+    justify-items: center;
+}
+.banner-title{
+    font-size: 32px;
+    font-weight: 900;
+}
+.banner-btn{
+    color: #fff;
+    background-color: black;
+    border-radius:7px;
+    padding: 7px 15px;
+    font-size: 15px;
     font-weight: 500;
 }
