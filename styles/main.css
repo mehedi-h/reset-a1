@@ -29,12 +29,16 @@ nav{
     max-width: 1440px auto;
     height: 560px;
     background-image: url(/images/banner-bg.jpg);
+    background-repeat: no-repeat;
     align-content: center;
     justify-items: center;
 }
 .banner-title{
+    max-width: 650px;
     font-size: 32px;
     font-weight: 900;
+    text-align: center;
+    line-height: 50px;
 }
 .banner-btn{
     color: #fff;
@@ -43,4 +47,12 @@ nav{
     padding: 7px 15px;
     font-size: 15px;
     font-weight: 500;
+}
+.banner-des{
+    max-width: 700px;
+    font-size: 14px;
+    font-weight: 500;
+    text-align: center;
+    line-height: 25px;
+    color: #181818;
 }
