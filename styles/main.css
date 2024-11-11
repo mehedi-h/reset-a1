@@ -5,6 +5,13 @@
   font-optical-sizing: auto;
 }
 
+.common-btn {
+    border: 1.5px solid #141414;
+    padding: 7px 15px;
+    font-size: 16px;
+    font-weight: 500;
+}
+
 nav{
     display: flex;
     align-items: center;
@@ -54,5 +61,51 @@ nav{
     font-weight: 500;
     text-align: center;
     line-height: 25px;
+    color: #181818;
+}
+
+/*-------------- Main Section ---------------*/
+
+.main-section {
+    background-color: aliceblue;
+    max-width: 1440px auto;
+    margin: 50px 180px;
+}
+.main-header {
+    align-content: center;
+    justify-items: center;
+    max-width: 600px auto; 
+}
+.main-title{
+    font-size: 30px;
+    font-weight: 900;
+}
+.main-des{
+    max-width: 700px;
+    font-size: 14px;
+    font-weight: 500;
+    text-align: center;
+    line-height: 25px;
+    color: #181818;
+}
+
+.main-box1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px 90px 100px;
+    padding-bottom: 30px;
+}
+.box1-body{
+    width: 50%;
+}
+.box1-img{
+    width: 250px;
+    height: 250px;
+}
+.box1-title {
+    font-size: 24px;
+    font-weight: 700;
+    letter-spacing: 1px;
     color: #181818;
 }
