@@ -253,3 +253,80 @@ nav{
     font-weight: 400;
     line-height: 18px;
 }
+
+.n-box1 {
+    display: flex;
+    border: 2px solid gainsboro;
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+.n-box1 img {
+    width: 10%;
+}
+.n-box1 p {
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 18px;
+}
+.n-box1 h3 {
+    font-size: 18px;
+    font-weight: 900;
+    color:#181818;
+}
+.n-box1 a {
+    font-size: 13px;
+    font-weight: 700;
+}
+
+
+.n-box2 {
+    display: flex;
+    border: 2px solid gainsboro;
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+.n-box2 img {
+    width: 10%;
+}
+.n-box2 p {
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 18px;
+}
+.n-box2 h3 {
+    font-size: 18px;
+    font-weight: 900;
+    color:#181818;
+}
+.n-box2 a {
+    font-size: 13px;
+    font-weight: 700;
+}
+
+
+.n-box3 {
+    display: flex;
+    border: 2px solid gainsboro;
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+.n-box3 img {
+    width: 10%;
+}
+.n-box3 p {
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 18px;
+}
+.n-box3 h3 {
+    font-size: 18px;
+    font-weight: 900;
+    color:#181818;
+}
+.n-box3 a {
+    font-size: 13px;
+    font-weight: 700;
+}
