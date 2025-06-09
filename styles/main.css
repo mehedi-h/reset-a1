@@ -19,6 +19,7 @@ nav{
     max-width: 1440px auto;
     margin: 0px 180px;
 }
+
 .logo {
     font-size: 36px;
     font-weight: 900;
@@ -158,6 +159,32 @@ nav{
     letter-spacing: 1px;
     color: #181818;
 }
+
+/*================= My Inspiration ================*/
+.ins-content {
+    text-align: center;
+    max-width: 1980px auto;
+    margin: 50px 120px;
+}
+.ins-text {
+    margin: 10px auto;
+    width: 60%;
+}
+.ins-text h3{
+    font-size: 24px;
+    font-weight: 900;
+    color:#181818;
+}
+.ins-video {
+    padding: 35px 0px;
+    border: 1px solid rgb(233, 227, 227);
+    border-radius: 20px;
+}
+.ins-video iframe{
+    text-align: center;
+    border-radius: 20px;
+}
+
 
 .target{
     max-width: 1980px auto;
@@ -332,7 +359,7 @@ nav{
 
 .footer-banner {
     background-image: url(/images/contact-us-line.jpg);
-    background-repeat: no-repeat;
+    background-size: cover;
     max-width: 1980px auto;
     margin: 50px 120px;
     border-radius: 8px;
@@ -361,4 +388,35 @@ nav{
     border: none;
     font-weight: 600;
     font-size: 13px;
+}
+
+.footer-content{
+   background-color: #ebebebec;
+}
+.rightNreserved {
+    max-width: 1980px auto;
+    margin: 0px 120px;
+    padding: 10px 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.rightNreserved p {
+    font-size: 16px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    color: green;
+}
+
+.rightNreserved span{
+    font-size: 20px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    color: red;
+}
+
+.footer-icon img {
+    width: 32px;
+    height: 32px;
+    padding: 0px 5px;
 }
