@@ -1,25 +1,26 @@
-
+*{
+    margin: 0;
+    padding: 0;
+}
 
 .raleway {
   font-family: "Raleway", sans-serif;
   font-optical-sizing: auto;
 }
-
 .common-btn {
     border: 1.5px solid #141414;
     padding: 7px 15px;
     font-size: 16px;
     font-weight: 500;
+    cursor:pointer;
 }
-
 nav{
     display: flex;
     align-items: center;
     justify-content: space-between;
     max-width: 1440px auto;
-    margin: 0px 180px;
+    margin: 20px 180px;
 }
-
 .logo {
     font-size: 36px;
     font-weight: 900;
@@ -29,11 +30,13 @@ nav{
     border-radius:7px;
     padding: 7px 15px;
     font-size: 15px;
-    font-weight: 500;  
+    font-weight: 500;
+    cursor: pointer;  
 }
 
-/*----------- Banner Design ------------*/
+/*============ Banner Design =============*/
 .banner-content {
+    padding: 20px 0;
     max-width: 1980px auto;
     height: 560px;
     background-image: url(/images/banner-bg.jpg);
@@ -42,51 +45,61 @@ nav{
     justify-items: center;
 }
 .banner-title{
+    padding: 20px 0px;
     max-width: 650px;
-    font-size: 32px;
-    font-weight: 900;
+    font-size: 36px;
+    font-weight: 800;
     text-align: center;
     line-height: 50px;
 }
+.banner-des{
+    padding-bottom: 20px;
+    max-width: 700px;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+    line-height: 30px;
+    letter-spacing: 1px;
+    color: #181818;
+}
 .banner-btn{
+    margin-bottom: 20px;
     color: #fff;
     background-color: black;
     border-radius:7px;
-    padding: 7px 15px;
+    padding: 8px 18px;
     font-size: 15px;
     font-weight: 500;
-}
-.banner-des{
-    max-width: 700px;
-    font-size: 14px;
-    font-weight: 500;
-    text-align: center;
-    line-height: 25px;
-    color: #181818;
+    cursor: pointer;
 }
 
-/*-------------- Main Section ---------------*/
+
+/*============== Main Section ============*/
 
 .main-section {
     background-color: aliceblue;
     max-width: 1980px auto;
-    margin: 50px 120px;
+    margin: 80px 120px;
+    border-radius: 8px;
+    padding: 20px;
 }
 .main-header {
     align-content: center;
     justify-items: center;
-    
+    padding: 20px 0;
 }
 .main-title{
     font-size: 30px;
     font-weight: 900;
 }
 .main-des{
-    max-width: 700px;
-    font-size: 14px;
-    font-weight: 500;
+    padding: 20px 0px;
+    max-width: 800px;
+    font-size: 16px;
+    font-weight: 400;
     text-align: center;
-    line-height: 25px;
+    line-height: 30px;
+    letter-spacing: 1px;
     color: #181818;
 }
 
@@ -102,16 +115,27 @@ nav{
 .box1-body{
     width: 50%;
 }
-.box1-img{
-    width: 250px;
-    height: 250px;
+.box1-body p{
+    font-size: 16px;
+    font-weight: 400;
+    margin: 20px 0px;
+    line-height: 30px;
+    letter-spacing: 1px;
 }
 .box1-title {
     font-size: 24px;
     font-weight: 700;
     letter-spacing: 1px;
     color: #181818;
+    line-height: 35px;
+    letter-spacing: 1px;
 }
+.box1-img{
+    width: 250px;
+    height: 250px;
+    border-radius: 8px;
+}
+
 
 
 /*============== main body box-2 ==============*/
@@ -125,17 +149,26 @@ nav{
     width: 50%;
     margin-left: 30px;
 }
-.box2-img{
-    width: 250px;
-    height: 250px;
-}
 .box2-title {
     font-size: 24px;
     font-weight: 700;
     letter-spacing: 1px;
     color: #181818;
+    line-height: 35px;
+    letter-spacing: 1px;
 }
-
+.box2-body p{
+    font-size: 16px;
+    font-weight: 400;
+    margin: 20px 0px;
+    line-height: 30px;
+    letter-spacing: 1px;
+}
+.box2-img{
+    width: 250px;
+    height: 250px;
+    border-radius: 8px;
+}
 
 
 /*============== main body box-3 ==============*/
@@ -149,16 +182,27 @@ nav{
 .box3-body{
     width: 50%;
 }
-.box3-img{
-    width: 250px;
-    height: 250px;
-}
 .box3-title {
     font-size: 24px;
     font-weight: 700;
     letter-spacing: 1px;
     color: #181818;
+    line-height: 35px;
+    letter-spacing: 1px;
 }
+.box3-body p{
+    font-size: 16px;
+    font-weight: 400;
+    margin: 20px 0px;
+    line-height: 30px;
+    letter-spacing: 1px;
+}
+.box3-img{
+    width: 250px;
+    height: 250px;
+    border-radius: 8px;
+}
+
 
 /*================= My Inspiration ================*/
 .ins-content {
@@ -166,14 +210,21 @@ nav{
     max-width: 1980px auto;
     margin: 50px 120px;
 }
-.ins-text {
-    margin: 10px auto;
-    width: 60%;
-}
 .ins-text h3{
     font-size: 24px;
     font-weight: 900;
     color:#181818;
+}
+.ins-text {
+    margin: 20px auto;
+    width: 60%;
+}
+.ins-text p {
+    font-size: 16px;
+    font-weight: 400;
+    padding: 10px 0;
+    line-height: 30px;
+    letter-spacing: 1px;
 }
 .ins-video {
     padding: 35px 0px;
@@ -185,29 +236,31 @@ nav{
     border-radius: 20px;
 }
 
-
+/*================= Current Target ================*/
 .target{
     max-width: 1980px auto;
     margin: 50px 120px;
 }
 .current-header{
     text-align: center;
-    margin: 60px 80px;
+    margin: 80px;
 }
 .current-header h3 {
     font-size: 24px;
     font-weight: 900;
     color:#181818;
+    padding-bottom: 20px;
 }
 .current-header p {
-    font-size: 12px;
+    font-size: 16px;
     font-weight: 400;
-    line-height: 18px;
+    line-height: 30px;
+    letter-spacing: 1px;
 }
-
 
 .c-box-body {
     display: flex;
+    gap: 30px;
 }
 .c-box1 {
     margin-right: 15px;
@@ -217,11 +270,16 @@ nav{
 }
 .c-box1 h4 {
     font-weight: 800;
+    font-size: 20px;
+    padding: 10px 0px;
 }
 .c-box1 p {
-    font-size: 12px;
+    font-size: 14px;
     font-weight: 400;
+    line-height: 25px;
+    letter-spacing: 1px;
     color:#313131;
+    padding-bottom: 20px;
 }
 .c-box1 a {
     font-size: 12px;
@@ -236,11 +294,16 @@ nav{
 }
 .c-box2 h4 {
     font-weight: 800;
+    font-size: 20px;
+    padding: 10px 0px;
 }
 .c-box2 p {
-    font-size: 12px;
+    font-size: 14px;
     font-weight: 400;
+    line-height: 25px;
+    letter-spacing: 1px;
     color:#313131;
+    padding-bottom: 20px;
 }
 .c-box2 a {
     font-size: 12px;
@@ -254,34 +317,44 @@ nav{
 }
 .c-box3 h4 {
     font-weight: 800;
+    font-size: 20px;
+    padding: 10px 0px;
 }
 .c-box3 p {
-    font-size: 12px;
+    font-size: 14px;
     font-weight: 400;
+    line-height: 25px;
+    letter-spacing: 1px;
     color:#313131;
+    padding-bottom: 20px;
 }
 .c-box3 a {
     font-size: 12px;
     font-weight: 600;
 }
 
+
+/*================= Next Target ================*/
 .next-header{
     text-align: center;
-    margin: 60px 80px;
+    margin: 80px;
 }
 .next-header h3 {
     font-size: 24px;
     font-weight: 900;
     color:#181818;
+    padding-bottom: 20px;
 }
 .next-header p {
-    font-size: 12px;
+    font-size: 16px;
     font-weight: 400;
-    line-height: 18px;
+    line-height: 30px;
+    letter-spacing: 1px;
 }
 
 .n-box1 {
     display: flex;
+    gap: 30px;
     border: 2px solid gainsboro;
     border-radius: 8px;
     padding: 20px;
@@ -291,14 +364,16 @@ nav{
     width: 10%;
 }
 .n-box1 p {
-    font-size: 12px;
+    font-size: 16px;
     font-weight: 400;
-    line-height: 18px;
+    line-height: 30px;
+    letter-spacing: 1px;
 }
 .n-box1 h3 {
-    font-size: 18px;
-    font-weight: 900;
-    color:#181818;
+    font-weight: 800;
+    font-size: 20px;
+    padding: 10px 0px;
+    letter-spacing: 1px;
 }
 .n-box1 a {
     font-size: 13px;
@@ -308,6 +383,7 @@ nav{
 
 .n-box2 {
     display: flex;
+    gap: 30px;
     border: 2px solid gainsboro;
     border-radius: 8px;
     padding: 20px;
@@ -317,14 +393,16 @@ nav{
     width: 10%;
 }
 .n-box2 p {
-    font-size: 12px;
+    font-size: 16px;
     font-weight: 400;
-    line-height: 18px;
+    line-height: 30px;
+    letter-spacing: 1px;
 }
 .n-box2 h3 {
-    font-size: 18px;
-    font-weight: 900;
-    color:#181818;
+    font-weight: 800;
+    font-size: 20px;
+    padding: 10px 0px;
+    letter-spacing: 1px;
 }
 .n-box2 a {
     font-size: 13px;
@@ -334,6 +412,7 @@ nav{
 
 .n-box3 {
     display: flex;
+    gap: 30px;
     border: 2px solid gainsboro;
     border-radius: 8px;
     padding: 20px;
@@ -343,51 +422,65 @@ nav{
     width: 10%;
 }
 .n-box3 p {
-    font-size: 12px;
+    font-size: 16px;
     font-weight: 400;
-    line-height: 18px;
+    line-height: 30px;
+    letter-spacing: 1px;
 }
 .n-box3 h3 {
-    font-size: 18px;
-    font-weight: 900;
-    color:#181818;
+    font-weight: 800;
+    font-size: 20px;
+    padding: 10px 0px;
+    letter-spacing: 1px;
 }
 .n-box3 a {
     font-size: 13px;
     font-weight: 700;
 }
 
+
+/*================= Footer Section ================*/
 .footer-banner {
     background-image: url(/images/contact-us-line.jpg);
     background-size: cover;
     max-width: 1980px auto;
-    margin: 50px 120px;
+    margin: 80px 120px;
     border-radius: 8px;
     padding: 25px 125px;
     text-align: center;
 }
 .footer-banner h3 {
-    font-size: 22px;
+    font-size: 24px;
     font-weight: 900;
+    color:#181818;
+    padding-top: 20px;
 }
 .footer-banner p {
-    font-size: 13px;
+    font-size: 16px;
     font-weight: 400;
-    line-height: 20px;
+    line-height: 30px;
+    letter-spacing: 1px;
+    padding: 20px 130px;
+}
+.input-sec {
+    padding: 20px 0;
 }
 .footer-banner input {
-    padding: 8px 10px;
+    padding: 11px 20px;
     width: 400px;
     border-radius: 8px;
     border: none;
     margin-right: 8px;
+    font-size: 18px;
+    letter-spacing: 1px;
 }
 .footer-banner button {
-    padding: 8px 10px;
+    padding: 12px 18px;
     border-radius: 8px;
     border: none;
-    font-weight: 600;
-    font-size: 13px;
+    font-weight: 500;
+    font-size: 16px;
+    letter-spacing: 1px;
 }
 
 .footer-content{
